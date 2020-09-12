@@ -1,11 +1,13 @@
 import React from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
+import { StatusBar } from 'react-native';
 
-const App: () => React$Node = () => {
+import Login from '~/pages/Login';
+
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView />
+      <Login />
     </>
   );
 };
