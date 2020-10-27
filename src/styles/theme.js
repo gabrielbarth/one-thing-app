@@ -5,7 +5,7 @@ const theme = {
     input: '#FFE2E2',
     primary: '#E11313',
     placeholder: '#888888',
-    dark: '#363636',
+    text: '#363636',
   },
 
   fonts: {

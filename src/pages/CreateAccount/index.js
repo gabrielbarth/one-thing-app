@@ -5,7 +5,7 @@ import Input from '~/components/Input';
 
 import { Container, CenterContainer, BottomContainer, TitleContainer, Title, TitlePrimary } from './styles';
 
-const Login = () => {
+const CreateAccount = () => {
   return (
     <Background>
       <Container>
@@ -16,14 +16,10 @@ const Login = () => {
 
         <CenterContainer>
           <Input placeholder="Seu e-mail" />
-          <Input placeholder="Sua senha secreta" />
-          <Button>Entrar</Button>
-          <Button>Entrar com o google</Button>
+          <Input placeholder="Senha secreta" />
+          <Button>Cadastrar-se</Button>
+          <Button>Cadastrar-se com Google</Button>
         </CenterContainer>
-
-        <BottomContainer>
-          <Button>Criar conta</Button>
-        </BottomContainer>
 
       </Container>
     </Background>
@@ -32,4 +28,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default CreateAccount;
